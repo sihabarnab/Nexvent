@@ -8,7 +8,7 @@ const NavBar = () => {
         <div className="nav-brand">
           <Link href="">
             <Image
-              src="/nextvent.png"
+              src="/logo.png"
               alt="Nextvent"
               width={135}
               height={135}
