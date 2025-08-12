@@ -2,13 +2,12 @@
 
 ## Project Overview
 
-Nexvent is a Next.js-based web application for browsing, expressing interest in, and buying tickets for events containing the keyword "puera." Users can register, log in, view event details including maps, make payments, and receive confirmation emails. The app integrates SEO best practices and Google Event schema.
+Nexvent is a Next.js-based web application for browsing, expressing interest in, and buying tickets for events. Users can register, log in, view event details including maps, make payments, and receive confirmation emails. The app integrates SEO best practices and Google Event schema.
 
 ---
 
 ## Features
 
-- Browse all events matching the keyword "puera"
 - User registration and login system
 - Mark interest in events
 - Purchase tickets (only logged-in users)
@@ -37,7 +36,7 @@ Nexvent is a Next.js-based web application for browsing, expressing interest in,
 ## Functional Requirements
 
 1. **Event Browsing**  
-   Display events filtered by "puera" with server-side rendering or static generation.
+   Display events filtered with server-side rendering or static generation.
 
 2. **User Authentication**  
    Allow users to register and log in securely.
@@ -82,4 +81,4 @@ Nexvent is a Next.js-based web application for browsing, expressing interest in,
 
 ## Contact
 
-For any questions or contributions, please contact [Your Name or Email].
+For any questions or contributions, please contact sihabarnab123@gmail.com.
