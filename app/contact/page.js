@@ -45,8 +45,8 @@ const ContactPage = () => {
         <div className="flex flex-col justify-center space-y-6 animate-fadeIn">
           <h2 className="text-4xl font-bold text-white mb-4">Get in Touch</h2>
           <p className="text-gray-300 text-lg">
-            We'd love to hear from you! Fill out the form or reach us via the
-            details below.
+            We&apos;d love to hear from you! Fill out the form or reach us via
+            the details below.
           </p>
 
           <div className="space-y-4">
