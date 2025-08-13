@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import ActionButton from "../ActionButton";
 
 const EventCard = () => {
   return (
@@ -26,10 +27,7 @@ const EventCard = () => {
           <span>40K Going</span>
         </div>
 
-        <div className="w-full flex gap-4 mt-4">
-          <button className="w-full">Interested</button>
-          <button className="w-full">Going</button>
-        </div>
+        <ActionButton />
       </div>
     </div>
   );
