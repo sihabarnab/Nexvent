@@ -9,7 +9,7 @@ const ActionButton = ({ fromDetails }) => {
       </button>
 
       <Link
-        href="#"
+        href="/payment"
         className="text-center w-full bg-[#464849] py-2 px-2 rounded-md border border-[#5f5f5f]/50 shadow-sm cursor-pointer hover:bg-[#3C3D3D] transition-colors active:translate-y-1"
       >
         Going
