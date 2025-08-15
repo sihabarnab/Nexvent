@@ -5,6 +5,17 @@ export default function Home() {
     <section className="container">
       <Header />
       <EventList />
+      <EventList />
+      <EventList />
+      <EventList />
+      <EventList />
+      <EventList />
+      <EventList />
+      <EventList />
+      <EventList />
+      <EventList />
+      <EventList />
+      <EventList />
     </section>
   );
 }
