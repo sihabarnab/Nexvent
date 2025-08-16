@@ -6,16 +6,6 @@ export default function Home() {
       <Header />
       <EventList />
       <EventList />
-      <EventList />
-      <EventList />
-      <EventList />
-      <EventList />
-      <EventList />
-      <EventList />
-      <EventList />
-      <EventList />
-      <EventList />
-      <EventList />
     </section>
   );
 }
