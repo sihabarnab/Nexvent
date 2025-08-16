@@ -1,4 +1,4 @@
-"use client"; // <- Important for useState and hooks
+"use client";
 import React, { useState } from "react";
 
 const FloatingInput = ({ label, type = "text" }) => {
@@ -12,7 +12,7 @@ const FloatingInput = ({ label, type = "text" }) => {
           value={value}
           onChange={(e) => setValue(e.target.value)}
           placeholder=" "
-          className="block w-full px-3 pt-4 pb-5 border border-gray-700 rounded-md bg-[rgba(20,20,20,0.8)] text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
+          className="block w-full px-3 pt-4 pb-5 border border-gray-700 rounded-md bg-[#1a1b1d] text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transition"
         />
       ) : (
         <textarea
@@ -20,12 +20,12 @@ const FloatingInput = ({ label, type = "text" }) => {
           value={value}
           onChange={(e) => setValue(e.target.value)}
           placeholder=" "
-          className="block w-full px-3 pt-5 pb-2 border border-gray-700 rounded-md bg-[rgba(20,20,20,0.8)] text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transition resize-none"
+          className="block w-full px-3 pt-5 pb-2 border border-gray-700 rounded-md bg-[#1a1b1d] text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transition resize-none"
         />
       )}
 
       <label
-        className={`absolute left-3 px-1 bg-[rgba(30,30,30,0.85)] transition-all duration-200 ${
+        className={`absolute left-3 px-1 bg-[#1a1b1d] transition-all duration-200 ${
           value
             ? "-top-2 text-purple-500 text-xs"
             : "top-5 text-gray-400 text-base"
@@ -39,8 +39,8 @@ const FloatingInput = ({ label, type = "text" }) => {
 
 const ContactPage = () => {
   return (
-    <div className="min-h-screen bg-[#0d0d0d] flex items-center justify-center px-4 py-10">
-      <div className="w-full max-w-6xl grid lg:grid-cols-2 gap-12 bg-[rgba(30,30,30,0.85)] backdrop-blur-md rounded-3xl shadow-2xl p-10">
+    <div className="min-h-screen bg-[#18191a] flex items-center justify-center px-4 py-10">
+      <div className="w-full max-w-6xl grid lg:grid-cols-2 gap-12 bg-[#242526] rounded-3xl shadow-2xl p-10">
         {/* Left Section */}
         <div className="flex flex-col justify-center space-y-6 animate-fadeIn">
           <h2 className="text-4xl font-bold text-white mb-4">Get in Touch</h2>

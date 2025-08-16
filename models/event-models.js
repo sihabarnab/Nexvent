@@ -2,7 +2,7 @@ import mongoose, { Schema } from "mongoose";
 
 const schema = new Schema({
   name: {
-    require: true,
+    required: true,
     type: String,
   },
   details: {
@@ -19,15 +19,19 @@ const schema = new Schema({
   },
   interested_ids: {
     required: false,
-    type: Array,
+    type: [String],
   },
   going_ids: {
     required: false,
-    type: Array,
+    type: [String],
   },
-  swgs: {
+  swags: {
     required: false,
-    type: Array,
+    type: [String],
+  },
+  date: {
+    required: false,
+    type: Date,
   },
 });
 

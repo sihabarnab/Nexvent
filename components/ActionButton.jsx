@@ -3,14 +3,14 @@ import React from "react";
 
 const ActionButton = ({ fromDetails }) => {
   return (
-    <div className={`w-full flex gap-4 mt-4 ${fromDetails && "flex-1"} `}>
-      <button className="w-full bg-indigo-600 hover:bg-indigo-800">
+    <div className={`w-full flex gap-4 mt-4 ${fromDetails ? "flex-1" : ""}`}>
+      <button className="w-full py-2 px-4 rounded-lg bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-semibold shadow-lg hover:from-purple-600 hover:to-indigo-500 transition-all duration-300 transform hover:scale-105 active:scale-95">
         Interested
       </button>
 
       <Link
         href="/payment"
-        className="text-center w-full bg-[#464849] py-2 px-2 rounded-md border border-[#5f5f5f]/50 shadow-sm cursor-pointer hover:bg-[#3C3D3D] transition-colors active:translate-y-1"
+        className="w-full py-2 px-4 rounded-lg bg-gray-700 text-white font-medium border border-gray-500 shadow hover:bg-gray-600 transition-all duration-300 transform hover:scale-105 active:scale-95 text-center"
       >
         Going
       </Link>
